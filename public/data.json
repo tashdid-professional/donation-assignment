@@ -1,0 +1,128 @@
+[
+    
+    {
+        "picture": "https://i.ibb.co/cw2ZT74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Support our Used Clothing Drive to provide warm clothing to those in need. Your contribution helps us make a positive impact in the community. Together, we can make a difference in people's lives. Join our cause today.",
+        "price": 24.99
+    },
+    {
+        "picture": "https://i.ibb.co/Y7CJTqh/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Help us provide clean and safe drinking water to children in need. Access to clean water is a basic human right, and your support can make it possible. Together, we can ensure a healthier future for these children.",
+        "price": 69.99
+    },
+    {
+        "picture": "https://i.ibb.co/n8GZH38/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Invest in quality education for a brighter future. Your contribution helps us provide access to good education for underprivileged children. Together, we can empower the next generation.",
+        "price": 34.99
+    },
+    {
+        "picture": "https://i.ibb.co/wwdhJH9/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Support our mission to provide better food for everyone. Your contribution helps us fight hunger and improve access to nutritious meals. Together, we can make sure no one goes to bed hungry.",
+        "price": 49.99
+    }
+,
+
+    {
+        "picture": "https://i.ibb.co/n8GZH38/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Invest in quality education for a brighter future. Your contribution helps us provide access to good education for underprivileged children. Together, we can empower the next generation.",
+        "price": 149.99
+    },
+    {
+        "picture": "https://i.ibb.co/wwdhJH9/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Support our mission to provide better food for everyone. Your contribution helps us fight hunger and improve access to nutritious meals. Together, we can make sure no one goes to bed hungry.",
+        "price": 44.99
+    },
+    {
+        "picture": "https://i.ibb.co/Y7CJTqh/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Help us provide clean and safe drinking water to children in need. Access to clean water is a basic human right, and your support can make it possible. Together, we can ensure a healthier future for these children.",
+        "price": 27.99
+    },
+    {
+        "picture": "https://i.ibb.co/cw2ZT74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Support our Used Clothing Drive to provide warm clothing to those in need. Your contribution helps us make a positive impact in the community. Together, we can make a difference in people's lives. Join our cause today.",
+        "price": 29.99
+    },
+
+
+    {
+        "picture": "https://i.ibb.co/n8GZH38/Education.png",
+        "title": "Good education",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Support our mission to provide better food for everyone. Your contribution helps us fight hunger and improve access to nutritious meals. Together, we can make sure no one goes to bed hungry.",
+        "price": 39.99
+    },
+    {
+        "picture": "https://i.ibb.co/Y7CJTqh/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Help us provide clean and safe drinking water to children in need. Access to clean water is a basic human right, and your support can make it possible. Together, we can ensure a healthier future for these children.",
+        "price": 59.99
+    },
+    {
+        "picture": "https://i.ibb.co/cw2ZT74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Support our Used Clothing Drive to provide warm clothing to those in need. Your contribution helps us make a positive impact in the community. Together, we can make a difference in people's lives. Join our cause today.",
+        "price": 19.99
+    },
+    {
+        "picture": "https://i.ibb.co/n8GZH38/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Invest in quality education for a brighter future. Your contribution helps us provide access to good education for underprivileged children. Together, we can empower the next generation.",
+        "price": 149.99
+    }
+
+]

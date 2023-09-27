@@ -6,13 +6,17 @@ const Banner = ({ onSearch }) => {
     const handleSearch = () => {
         onSearch(searchInput);
     };
-    const backgroundImageUrl = 'Clothing.png';
+        // Define the URL for your background image
+        const backgroundImageUrl = '/Clothing.png'; // Replace with your image URL
 
-  const divStyle = {
-    backgroundImage: `url(${backgroundImageUrl})`,
-    backgroundSize: 'cover', 
-    
-  };
+        // Define the inline styles for the background
+        const divStyle = {
+            backgroundImage: `url(${backgroundImageUrl})`,
+            backgroundSize: 'cover', // Adjust to your preference
+            // Add other background properties (position, repeat, etc.) as needed
+        };
+
+ 
 
     return (
         <div className='space-y-7' style={divStyle}>

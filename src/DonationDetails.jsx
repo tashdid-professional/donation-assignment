@@ -1,18 +1,29 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-const DonationDetails = () => {
-  const { id } = useParams(); // Get the donation ID from the URL
+const DonationDetails = ({ cards }) => {
+    const { index } = useParams();
 
-  // Fetch and display donation details based on the id
+    // Ensure the index is a valid number and within the range of cards
+    const cardIndex = parseInt(index, 10);
+    if (isNaN(cardIndex) || cardIndex < 0 || cardIndex >= cards.length) {
+        // Handle invalid index, e.g., redirect to an error page
+        return <div>Invalid Card Index</div>;
+    }
 
-  return (
-    <div>
-      <h2>Donation Details</h2>
-      <p>Details for Donation ID: {id}</p>
-      {/* Fetch and display specific donation details here */}
-    </div>
-  );
+    const card = cards[cardIndex];
+
+    return (
+        <div>
+            <h2>Donation Details</h2>
+            <div>
+                <img src={card.picture} alt={card.category} />
+                <h3>Category: {card.category}</h3>
+                <p>{card.description}</p>
+                <p>Price: ${card.price}</p>
+            </div>
+        </div>
+    );
 };
 
 export default DonationDetails;

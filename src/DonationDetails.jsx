@@ -2,7 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const DonationDetails = ({ cards }) => {
+  console.log("🚀 ~ file: DonationDetails.jsx:5 ~ DonationDetails ~ cards:", cards)
   const { id } = useParams();
+  
 
   // Find the card with the matching ID
   const card = cards.find((c) => c.id === id);

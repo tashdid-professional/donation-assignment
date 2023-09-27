@@ -39,6 +39,7 @@ const Cards = () => {
             <Card card={card} />
           </Link>
         ))}
+        
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
+import './App.css';
+
 
 const Navbar = () => {
   return (
@@ -8,15 +10,28 @@ const Navbar = () => {
         <img src="/Resources/Logo.png" alt="Logo" />
       </div>
       <div className="space-x-14 text-lg font-medium">
-        <Link to="/" className=" text-lg font-semibold">
+        <NavLink
+          to="/"
+          className="text-lg font-semibold"
+          activeClassName="active-link" 
+          exact 
+        >
           Home
-        </Link>
-        <Link to="/donation" className=" text-lg hover:text-yellow-300">
+        </NavLink>
+        <NavLink
+          to="/donation"
+          className="text-lg hover:text-yellow-300"
+          activeClassName="active-link"
+        >
           Donation
-        </Link>
-        <Link to="/statistics" className=" text-lg hover:text-yellow-300">
+        </NavLink>
+        <NavLink
+          to="/statistics"
+          className="text-lg hover:text-yellow-300"
+          activeClassName="active-link"
+        >
           Statistics
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

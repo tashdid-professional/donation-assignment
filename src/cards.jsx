@@ -29,7 +29,7 @@ const Cards = () => {
   return (
     <div>
       <Banner onSearch={handleSearch} />
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 w-3/4 mx-auto">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 lg:w-3/4  w-3/4 mx-auto ">
         {filteredCards.map((card, index) => (
           <Link
             to={`/donation/details/${card.id}`}
